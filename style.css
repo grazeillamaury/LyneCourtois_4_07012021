@@ -361,6 +361,13 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+blockquote{
+    padding: 0 10%;
+    margin: 0;
+    font-size: 20px;
+    border-style: none;
+    font-style: italic;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -678,6 +685,7 @@ a {
     margin: auto auto auto auto;
 }
 
+figcaption,
 p {
     font-size: 13px;
 }
